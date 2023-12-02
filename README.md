@@ -1,38 +1,29 @@
-# TicTacX-Os
-By: Gail Javier, Leslie Evangelista, Raquel Fernandes Castoldi, and Zeus Estrella
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-## Context
-We are developing a multiplayer tic-tac-toe gaming application designed for dual-player engagement on a single device.
+# Getting Started
 
-## Decision
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-### Platform Selection:
+## Step 1: Start the Metro Server
 
-We recommend developing a web-based Tic-Tac-Toe game using HTML, CSS, and React for the frontend. As for the design tool, we will use Figma to design the user interface for the mobile application. 
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-#### Rationale:
+To start Metro, run the following command from the _root_ of your React Native project:
 
-This decision is based on the need for a responsive and interactive user interface, as well as the requirement for real-time communication between players in a multiplayer game.
+```bash
+# using npm
+npm start
 
-### Frontend Framework:
+# OR using Yarn
+yarn start
+```
 
-We propose using React for the frontend to create a dynamic and interactive user interface. We will also use Figma to assist with the frontend design and prototyping. 
+## Step 2: Start your Application
 
-#### Rationale:
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-React provides a component-based architecture and state management, making it well-suited for creating a responsive and interactive user interface for the game. For example, React will be an excellent tool for creating individual squares on the game board, player information, and the mobile app's in-game status. 
+### For Android
 
-Choosing Figma as our design program helps visualize and prepares us for the final product of our mobile app. Figma will also help guide us on how the prototype navigation would look for the outcome of the application. 
-
-### Responsive Design 
-
-The program that we will be using for the responsive design will be CSS. 
-
-#### Rationale: 
-
-Using CSS for responsive design ensures the game is accessible for each component for each framework within the app. 
-
-## Consequences:
-
-By developing a web-based Tic-Tac-Toe game with React for the frontend, we can achieve a responsive and interactive gaming experience. The game is designed for local multiplayer functionality, allowing two players to take turns on a single device. This setup ensures a fair and engaging gameplay experience for friends and family sharing the same mobile device.
-<!--  -->
+```bash
+# using npm
+npm run android
