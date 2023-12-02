@@ -1,79 +1,38 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TicTacX-Os
+By: Gail Javier, Leslie Evangelista, Raquel Fernandes Castoldi, and Zeus Estrella
 
-# Getting Started
+## Context
+We are developing a multiplayer tic-tac-toe gaming application designed for dual-player engagement on a single device.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Decision
 
-## Step 1: Start the Metro Server
+### Platform Selection:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+We recommend developing a web-based Tic-Tac-Toe game using HTML, CSS, and React for the frontend. As for the design tool, we will use Figma to design the user interface for the mobile application. 
 
-To start Metro, run the following command from the _root_ of your React Native project:
+#### Rationale:
 
-```bash
-# using npm
-npm start
+This decision is based on the need for a responsive and interactive user interface, as well as the requirement for real-time communication between players in a multiplayer game.
 
-# OR using Yarn
-yarn start
-```
+### Frontend Framework:
 
-## Step 2: Start your Application
+We propose using React for the frontend to create a dynamic and interactive user interface. We will also use Figma to assist with the frontend design and prototyping. 
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+#### Rationale:
 
-### For Android
+React provides a component-based architecture and state management, making it well-suited for creating a responsive and interactive user interface for the game. For example, React will be an excellent tool for creating individual squares on the game board, player information, and the mobile app's in-game status. 
 
-```bash
-# using npm
-npm run android
+Choosing Figma as our design program helps visualize and prepares us for the final product of our mobile app. Figma will also help guide us on how the prototype navigation would look for the outcome of the application. 
 
-# OR using Yarn
-yarn android
-```
+### Responsive Design 
 
-### For iOS
+The program that we will be using for the responsive design will be CSS. 
 
-```bash
-# using npm
-npm run ios
+#### Rationale: 
 
-# OR using Yarn
-yarn ios
-```
+Using CSS for responsive design ensures the game is accessible for each component for each framework within the app. 
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Consequences:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+By developing a web-based Tic-Tac-Toe game with React for the frontend, we can achieve a responsive and interactive gaming experience. The game is designed for local multiplayer functionality, allowing two players to take turns on a single device. This setup ensures a fair and engaging gameplay experience for friends and family sharing the same mobile device.
+<!--  -->
