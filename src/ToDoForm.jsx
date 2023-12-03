@@ -22,7 +22,6 @@ function ToDoForm({ onAddTask }) {
             </View>
         </>
     );
-
 }
 
 const styles = StyleSheet.create({
